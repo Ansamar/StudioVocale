@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AudioEditor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎧 AudioEditor</h1>
+  </header>
+
+  <main>
+    <section>
+      <label for="audioInput">Seleziona file audio:</label>
+      <input type="file" id="audioInput" accept="audio/*" />
+    </section>
+
+    <section>
+      <audio id="audioPlayer" controls></audio>
+    </section>
+
+    <section class="controls">
+      <label for="pitch">Pitch</label>
+      <input type="range" id="pitch" min="0.5" max="2" step="0.01" value="1" />
+
+      <label for="rate">Velocità</label>
+      <input type="range" id="rate" min="0.5" max="2" step="0.01" value="1" />
+
+      <label for="volume">Volume</label>
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1" />
+    </section>
+
+    <section class="buttons">
+      <button id="resetBtn">🔄 Reset</button>
+      <button id="recordBtn">⏺️ Registra</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creato da Mario — AudioEditor 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input[type="range"],
+input[type="file"] {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+audio {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.controls, .buttons {
+  margin-top: 2rem;
+}
+
+button {
+  background-color: #333;
+  color: #f1f1f1;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #444;
+}
